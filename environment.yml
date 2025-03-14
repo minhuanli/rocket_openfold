@@ -1,11 +1,10 @@
-name: openfold-env 
 channels:
   - conda-forge
   - bioconda
   - pytorch
   - nvidia 
 dependencies:
-  - cuda
+  - cuda=12.1
   - gcc=12.4
   - python=3.10
   - libgcc=7.2
@@ -38,4 +37,3 @@ dependencies:
       - deepspeed==0.12.4
       - dm-tree==0.1.6
       - git+https://github.com/NVIDIA/dllogger.git
-      - flash-attn 
